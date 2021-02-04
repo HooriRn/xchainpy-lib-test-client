@@ -1,5 +1,6 @@
 <h1 align="center">XChainPY-lib Test for Client</h1>
-![MIT](https://img.shields.io/github/license/HooriRn/xchainpy-lib-test-client)
+
+![GitHub](https://img.shields.io/github/license/HooriRn/xchainpy-lib-test-client)
 
 XChainPY is a library with a common interface for multiple blockchains, built for simple and fast integration for wallets and more.
 
