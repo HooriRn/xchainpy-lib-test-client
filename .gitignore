@@ -1,0 +1,5 @@
+.vscode
+.idea
+*.pyc
+example-mnemonic.txt
+wallet.txt
