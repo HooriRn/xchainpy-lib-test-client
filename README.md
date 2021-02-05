@@ -26,13 +26,20 @@ Initially this project is based upon `python3.8`
     * pywallet
     * binance_chain
 
-    before installing libraries setup secp256k1 C library with
+    ### before installing libraries setup secp256k1 C library with
+    
+    Linux
     ```bash
         $ sudo apt-get install libssl-dev build-essential automake pkg-config libtool libffi-dev libgmp-dev libyaml-cpp-dev
         $ sudo apt install libsecp256k1-dev
     ```
-   
-   Then get into the repo folder and run this
+    
+    for other platform installation, please see [this link](https://github.com/ludbb/secp256k1-py)
+    
+    #### !! There is no native support for this library in Windows yet, so you might use WSL for this installation
+    
+    
+    Then get into the repo folder and run this
    
    ```bash
        $ pip install -r requirements.txt 
