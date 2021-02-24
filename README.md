@@ -28,13 +28,21 @@ Initially this project is based upon `python3.8`
 
     ### before installing libraries setup secp256k1 C library with
     
-    Linux
+    #### Linux
     ```bash
         $ sudo apt-get install libssl-dev build-essential automake pkg-config libtool libffi-dev libgmp-dev libyaml-cpp-dev
         $ sudo apt install libsecp256k1-dev
     ```
     
-    for other platform installation, please see [this link](https://github.com/ludbb/secp256k1-py)
+    #### Macintoch
+    - need to have brew installed
+    ```bash
+        $ sudo brew install automake pkg-config libtool libffi gmp
+    ```
+    
+    if you run older version of macOS install dependencies with this parameter `--`
+    
+    for more installation info, please see [this link](https://github.com/ludbb/secp256k1-py)
     
     #### !! There is no native support for this library in Windows yet, so you might use WSL for this installation
     
