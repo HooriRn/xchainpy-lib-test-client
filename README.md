@@ -40,7 +40,7 @@ Initially this project is based upon `python3.8`
         $ sudo brew install automake pkg-config libtool libffi gmp
     ```
     
-    if you run older version of macOS install dependencies with this parameter `--`
+    If you are running older version of macOS install dependencies with this parameter `--build-from-source`
     
     for more installation info, please see [this link](https://github.com/ludbb/secp256k1-py)
     
